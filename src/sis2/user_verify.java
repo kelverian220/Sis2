@@ -53,7 +53,7 @@ public class user_verify {
             //Class.forName(driver);        
             (Connection con = DriverManager.getConnection(url, username, pass)){
             
-            System.out.println("Conexion establecida!");
+            System.out.println("Conexion establecida!!");
             Statement stmt = (Statement) con.createStatement();
             String query;
             String dbUser;
